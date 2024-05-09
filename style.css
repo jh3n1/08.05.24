@@ -1,0 +1,52 @@
+body {
+    background-image: url('./mario.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  .container {
+    width: 200px;
+    height: 200px;
+  }
+  img {
+    object-fit: cover;
+    width: 20%;
+    height: 20%;
+  }
+
+  button {
+    display: inline-block;
+    background-color: #1990ff;
+    padding: 20px;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+    border: 4px double #cccccc;
+    border-radius: 10px;
+    font-size: 28px;
+    cursor: pointer;
+    margin: 5px;
+    transition: all 0.5s;
+  }
+
+  button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #ffffff;
+  }
+
+  button:active {
+    background-color: #7b38d8;
+    color: #ffffff;
+  }
+
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 4px 0 #7b38d8;
+  }
+
+  avatar {
+
+  }
+  
